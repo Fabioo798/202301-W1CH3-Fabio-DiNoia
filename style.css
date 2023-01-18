@@ -21,6 +21,7 @@ ul {
 header li {
   list-style: none;
   text-align: center;
+  padding: 5px;
 }
 
 header li:nth-child(2) {
@@ -31,14 +32,19 @@ main > span {
   background-color: #d09d72;
   display: flex;
   justify-content: space-between;
+  padding-right: 10px;
 }
 
-button {
+main > span > button {
   font-size: 2rem;
   border-radius: 50%;
   background-color: transparent;
   height: 45px;
   width: 40px;
+}
+
+a {
+  text-decoration: none;
 }
 
 div {
@@ -51,7 +57,7 @@ div {
 }
 div ul {
   flex-direction: column;
-  width: 100%;
+  width: 98%;
   padding-left: 2px;
 }
 
@@ -85,10 +91,52 @@ main > div > p {
   margin: 0%;
 }
 
+main > li > p {
+  text-decoration-line: orange;
+  background-color: white;
+}
+
+div > ul > li > label {
+  text-decoration-line: line-through;
+}
+
+div > ul > li:hover {
+  color: #d09d72;
+}
+
 footer {
   background-color: #5169a7;
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main h2 {
+  background-color: #d1bead;
+}
+
+form {
+  padding-left: 10px;
+  background-color: #d1bead;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 170px;
+}
+
+form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid purple;
+}
+
+form button {
+  background-color: #5169a7;
+  text-decoration-style: ;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
