@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 5px;
+  background-color: rgba(36, 36, 224, 0.628);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+ul {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  text-align: center;
+}
+
+header li:nth-child(2) {
+  font-weight: bold;
+}
+
+main > span {
+  background-color: #d09d72;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 45px;
+  width: 40px;
+}
+
+div {
+  background-color: #d1bead;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+div ul {
+  flex-direction: column;
+  width: 100%;
+  padding-left: 2px;
+}
+
+div li {
+  list-style: none;
+  /* text-align: column; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  display: flex;
+  width: 80%;
+}
+
+li span {
+  display: flex;
+  width: 90%;
+}
+
+main div:nth-child(3) {
+  background-color: #d1bead;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 35px;
+  padding-bottom: 250px;
+}
+
+main > div > p {
+  margin: 0%;
+}
+
+footer {
+  background-color: #5169a7;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
